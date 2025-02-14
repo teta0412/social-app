@@ -10,10 +10,10 @@ spring:
 amazon:
     s3:
         bucket:
-            name: twitterclonestorage
+            name: NAME_PROJECT
     aws:
-        access-key: AKIATP4TDBGPAJUNI5EY
-        secret-key: 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
+        access-key: ACCESS-KEY
+        secret-key: SECRET-KEY
 
 eureka:
     client:
