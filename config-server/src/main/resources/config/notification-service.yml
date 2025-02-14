@@ -1,0 +1,49 @@
+server:
+    port: 8007
+spring:
+    application:
+        name: notification-service
+    datasource:
+        url: jdbc:postgresql://${DATASOURCE_HOST:localhost}:5438/notification_db
+        username: postgres
+        password: root
+        driverClassName: org.postgresql.Driver
+    jpa:
+        hibernate:
+            ddl-auto: validate
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+    flyway:
+        locations: classpath:db/migration
+    zipkin:
+        base-url: http://${ZIPKIN_HOST:localhost}:9411
+    kafka:
+        bootstrap-servers: localhost:9092
+        consumer:
+            group-id: notification
+batch:
+    chunkSize: 100
+    periodOfDays: 1
+resilience4j:
+    circuitbreaker:
+        instances:
+            tweet-service:
+                minimum-number-of-calls: 5
+            user-service:
+                minimum-number-of-calls: 5
+            websocket-service:
+                minimum-number-of-calls: 5
+feign:
+    circuitbreaker:
+        enabled: true
+
+eureka:
+    client:
+        service-url:
+            defaultZone: http://${EUREKA_HOST:localhost}:8761/eureka
+        fetch-registry: true
+        register-with-eureka: true
+    instance:
+        hostname: ${EUREKA_HOST:localhost}
+
