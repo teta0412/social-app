@@ -4,9 +4,9 @@ spring:
     application:
         name: chat-service
     datasource:
-        url: jdbc:postgresql://${DATASOURCE_HOST:localhost}:5432/chat
+        url: jdbc:postgresql://${DATASOURCE_HOST:localhost}:5432/chatdb
         username: postgres
-        password: root
+        password: 123456
         driverClassName: org.postgresql.Driver
     jpa:
         hibernate:
