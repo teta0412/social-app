@@ -54,33 +54,6 @@ services:
             - notification-service-db-data:/var/lib/postgresql/data
         restart: always
 
-    postgres_tag:
-        container_name: postgres_tag
-        image: postgres:latest
-        environment:
-            POSTGRES_USER: postgres
-            POSTGRES_PASSWORD: 123456
-            POSTGRES_DB: tagdb
-            PGDATA: /var/lib/postgresql/data
-        volumes:
-            - tag-service-db-data:/var/lib/postgresql/data
-        ports:
-            - "5438:5432"
-        restart: always
-
-    postgres_topic:
-        container_name: postgres_topic
-        image: postgres:latest
-        environment:
-            POSTGRES_USER: postgres
-            POSTGRES_PASSWORD: 123456
-            POSTGRES_DB: topicdb
-            PGDATA: /var/lib/postgresql/data
-        volumes:
-            - topic-service-db-data:/var/lib/postgresql/data
-        ports:
-            - "5439:5432"
-        restart: always
     zipkin:
         image: openzipkin/zipkin
         container_name: zipkin
@@ -126,34 +99,6 @@ services:
             KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
         networks:
             - spring
-
-    grafana:
-        container_name: grafana
-        build: 'dashboard/grafana'
-        ports:
-            - "3001:3000"
-        volumes:
-            - ./grafana:/var/lib/grafana
-        environment:
-            - GF_SECURITY_ADMIN_USER=admin
-            - GF_SECURITY_ADMIN_PASSWORD=admin
-        networks:
-            monitoring:
-                aliases:
-                    - grafana
-
-    prometheus:
-        image: prom/prometheus
-        container_name: prometheus
-        ports:
-            - "9090:9090"
-        volumes:
-            - ./dashboard/prometheus.yml:/etc/prometheus/prometheus.yml
-            - ./prometheus:/prometheus
-        networks:
-            monitoring:
-                aliases:
-                    - prometheus
 
 #    eureka-server:
 #        image: merikbest/twitter-spring-reactjs:eureka-server
