@@ -18,6 +18,7 @@
         <module>websocket-service</module>
         <module>chat-service</module>
         <module>storage-service</module>
+        <module>tweet-service</module>
     </modules>
 
     <properties>
