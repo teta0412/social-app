@@ -1,7 +1,7 @@
 package org.teta.service;
 
-import event.ListsNotificationDto;
-import event.UpdateListsEvent;
+import org.teta.event.ListsNotificationDto;
+import org.teta.event.UpdateListsEvent;
 import org.teta.model.Lists;
 
 public interface ListsHandlerService {

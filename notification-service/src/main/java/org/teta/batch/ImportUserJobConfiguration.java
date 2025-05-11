@@ -1,8 +1,8 @@
 package org.teta.batch;
 
 import org.teta.client.UserClient;
-import constants.BatchJobConstants;
-import event.UpdateUserEvent;
+import org.teta.constants.BatchJobConstants;
+import org.teta.event.UpdateUserEvent;
 import org.teta.model.User;
 import org.teta.service.UserHandlerService;
 import jakarta.persistence.EntityManagerFactory;

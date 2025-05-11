@@ -1,6 +1,6 @@
 package org.teta.repository;
 
-import enums.NotificationType;
+import org.teta.enums.NotificationType;
 import org.teta.model.Notification;
 import org.teta.repository.projection.NotificationInfoProjection;
 import org.teta.repository.projection.NotificationProjection;

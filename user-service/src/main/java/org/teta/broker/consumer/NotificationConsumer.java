@@ -1,7 +1,7 @@
 package org.teta.broker.consumer;
 
-import constants.KafkaTopicConstants;
-import event.TweetSubscriberNotificationEvent;
+import org.teta.constants.KafkaTopicConstants;
+import org.teta.event.TweetSubscriberNotificationEvent;
 import org.teta.service.UserNotificationHandlerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.annotation.KafkaListener;

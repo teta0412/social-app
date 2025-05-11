@@ -1,8 +1,8 @@
 package org.teta.model;
 
-import enums.LinkCoverSize;
-import enums.ReplyType;
-import enums.TweetType;
+import org.teta.enums.LinkCoverSize;
+import org.teta.enums.ReplyType;
+import org.teta.enums.TweetType;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

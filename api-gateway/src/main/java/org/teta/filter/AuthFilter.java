@@ -1,18 +1,18 @@
 package org.teta.filter;
 
-import constants.HeaderConstants;
-import dto.response.user.UserPrincipalResponse;
 import org.springframework.cloud.gateway.filter.GatewayFilter;
 import org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
-import security.JwtAuthenticationException;
-import security.JwtProvider;
+import org.teta.constants.HeaderConstants;
+import org.teta.dto.response.user.UserPrincipalResponse;
+import org.teta.security.JwtAuthenticationException;
+import org.teta.security.JwtProvider;
 
-import static constants.ErrorMessage.JWT_TOKEN_EXPIRED;
-import static constants.FeignConstants.USER_SERVICE;
-import static constants.PathConstants.API_V1_AUTH;
-import static constants.PathConstants.USER_EMAIL;
+import static org.teta.constants.ErrorMessage.JWT_TOKEN_EXPIRED;
+import static org.teta.constants.FeignConstants.USER_SERVICE;
+import static org.teta.constants.PathConstants.API_V1_AUTH;
+import static org.teta.constants.PathConstants.USER_EMAIL;
 
 
 @Component

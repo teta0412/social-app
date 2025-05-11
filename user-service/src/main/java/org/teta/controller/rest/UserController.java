@@ -1,9 +1,9 @@
 package org.teta.controller.rest;
 
-import constants.PathConstants;
-import dto.HeaderResponse;
-import dto.response.user.CommonUserResponse;
-import dto.response.user.UserResponse;
+import org.teta.constants.PathConstants;
+import org.teta.dto.HeaderResponse;
+import org.teta.dto.response.user.CommonUserResponse;
+import org.teta.dto.response.user.UserResponse;
 import org.teta.dto.request.SearchTermsRequest;
 import org.teta.dto.request.UserRequest;
 import org.teta.dto.response.*;

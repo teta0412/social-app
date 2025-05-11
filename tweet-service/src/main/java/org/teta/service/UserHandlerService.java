@@ -1,6 +1,7 @@
 package org.teta.service;
 
-import event.*;
+
+import org.teta.event.*;
 import org.teta.model.User;
 
 public interface UserHandlerService {

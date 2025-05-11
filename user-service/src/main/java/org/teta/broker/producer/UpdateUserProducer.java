@@ -1,7 +1,7 @@
 package org.teta.broker.producer;
 
-import constants.KafkaTopicConstants;
-import event.UpdateUserEvent;
+import org.teta.constants.KafkaTopicConstants;
+import org.teta.event.UpdateUserEvent;
 import org.teta.mapper.ProducerMapper;
 import org.teta.model.User;
 import lombok.RequiredArgsConstructor;

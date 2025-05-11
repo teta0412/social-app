@@ -1,7 +1,7 @@
 package org.teta.service;
 
-import dto.response.notification.NotificationUserResponse;
-import dto.response.tweet.TweetResponse;
+import org.teta.dto.response.notification.NotificationUserResponse;
+import org.teta.dto.response.tweet.TweetResponse;
 import org.teta.repository.projection.NotificationInfoProjection;
 import org.teta.repository.projection.NotificationProjection;
 import org.springframework.data.domain.Page;

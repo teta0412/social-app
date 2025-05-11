@@ -3,10 +3,10 @@ package org.teta.service.util;
 import org.teta.broker.producer.TagProducer;
 import org.teta.broker.producer.TweetNotificationProducer;
 import org.teta.broker.producer.UpdateTweetCountProducer;
-import dto.response.tweet.TweetResponse;
-import enums.LinkCoverSize;
-import enums.NotificationType;
-import mapper.BasicMapper;
+import org.teta.dto.response.tweet.TweetResponse;
+import org.teta.enums.LinkCoverSize;
+import org.teta.enums.NotificationType;
+import org.teta.mapper.BasicMapper;
 import org.teta.model.Tweet;
 import org.teta.model.User;
 import org.teta.repository.TweetRepository;
@@ -44,12 +44,6 @@ public class TweetServiceHelper {
     private final UserService userService;
     private final TagProducer tagProducer;
     private final BasicMapper basicMapper;
-
-    @Value("${google.api.url}")
-    private String googleApiUrl;
-
-    @Value("${google.api.key}")
-    private String googleApiKey;
 
     private static final String URL_REGEX = "https?:\\/\\/?[\\w\\d\\._\\-%\\/\\?=&#]+";
     private static final String IMG_REGEX = "\\.(jpeg|jpg|gif|png)$";
@@ -109,10 +103,8 @@ public class TweetServiceHelper {
                 if (youTubeMatcher.find()) {
                     youTubeVideoId = youTubeMatcher.group();
                 }
-                String youtubeUrl = String.format(googleApiUrl, youTubeVideoId, googleApiKey);
                 RestTemplate restTemplate = new RestTemplate();
-                String youTubeVideData = restTemplate.getForObject(youtubeUrl, String.class);
-                JSONObject jsonObject = new JSONObject(youTubeVideData);
+                JSONObject jsonObject = new JSONObject("");
                 JSONArray items = jsonObject.getJSONArray("items");
                 String videoTitle = null;
                 String videoCoverImage = null;

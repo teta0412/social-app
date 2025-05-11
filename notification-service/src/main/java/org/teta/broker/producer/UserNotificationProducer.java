@@ -1,6 +1,6 @@
 package org.teta.broker.producer;
 
-import constants.KafkaTopicConstants;
+import org.teta.constants.KafkaTopicConstants;
 import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;

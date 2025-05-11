@@ -6,7 +6,7 @@ import org.springframework.web.socket.config.annotation.EnableWebSocketMessageBr
 import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
 import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer;
 
-import static constants.WebsocketConstants.TOPIC;
+import static org.teta.constants.WebsocketConstants.TOPIC;
 
 
 @Configuration

@@ -1,9 +1,9 @@
 package org.teta.configuration;
 
-import event.BlockUserEvent;
-import event.FollowRequestUserEvent;
-import event.FollowUserEvent;
-import event.UpdateUserEvent;
+import org.teta.event.BlockUserEvent;
+import org.teta.event.FollowRequestUserEvent;
+import org.teta.event.FollowUserEvent;
+import org.teta.event.UpdateUserEvent;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.beans.factory.annotation.Value;

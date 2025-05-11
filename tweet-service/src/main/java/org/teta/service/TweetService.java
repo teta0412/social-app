@@ -1,14 +1,13 @@
 package org.teta.service;
 
-import dto.response.tweet.TweetResponse;
-import enums.ReplyType;
+import org.teta.dto.response.tweet.TweetResponse;
+import org.teta.enums.ReplyType;
 import org.teta.model.Tweet;
 import org.teta.model.TweetImage;
 import org.teta.repository.projection.*;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.multipart.MultipartFile;
-import org.teta.repository.projection.*;
 
 import java.util.List;
 import java.util.Optional;

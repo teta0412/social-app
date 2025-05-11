@@ -1,7 +1,7 @@
 package org.teta.repository.projection;
 
-import enums.BackgroundColorType;
-import enums.ColorSchemeType;
+import org.teta.enums.BackgroundColorType;
+import org.teta.enums.ColorSchemeType;
 
 import java.time.LocalDateTime;
 

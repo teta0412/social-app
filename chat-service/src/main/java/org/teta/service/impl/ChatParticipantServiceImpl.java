@@ -1,6 +1,6 @@
 package org.teta.service.impl;
 
-import exception.ApiRequestException;
+import org.teta.exception.ApiRequestException;
 import org.teta.constants.ChatErrorMessage;
 import org.teta.constants.ChatSuccessMessage;
 import org.teta.model.Chat;
@@ -18,7 +18,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import util.AuthUtil;
+import org.teta.util.AuthUtil;
 
 @Service
 @RequiredArgsConstructor

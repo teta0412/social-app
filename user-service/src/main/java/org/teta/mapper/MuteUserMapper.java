@@ -1,7 +1,6 @@
 package org.teta.mapper;
 
-import dto.HeaderResponse;
-import mapper.BasicMapper;
+import org.teta.dto.HeaderResponse;
 import org.teta.dto.response.MutedUserResponse;
 import org.teta.repository.projection.MutedUserProjection;
 import org.teta.service.MuteUserService;

@@ -1,20 +1,17 @@
 package org.teta.mapper;
 
-import dto.HeaderResponse;
-import dto.response.tweet.TweetResponse;
-import mapper.BasicMapper;
+import org.teta.dto.HeaderResponse;
+import org.teta.dto.response.tweet.TweetResponse;
 import org.teta.dto.request.TweetRequest;
-import org.teta.dto.response.*;
-import dto.response.user.UserResponse;
-import enums.NotificationType;
-import enums.ReplyType;
+import org.teta.dto.response.user.UserResponse;
+import org.teta.enums.NotificationType;
+import org.teta.enums.ReplyType;
 import org.teta.dto.response.NotificationReplyResponse;
 import org.teta.dto.response.ProfileTweetImageResponse;
 import org.teta.dto.response.TweetAdditionalInfoResponse;
 import org.teta.dto.response.TweetImageResponse;
 import org.teta.model.Tweet;
 import org.teta.model.TweetImage;
-import org.teta.repository.projection.*;
 import org.teta.repository.projection.*;
 import org.teta.service.TweetService;
 import lombok.RequiredArgsConstructor;

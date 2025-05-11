@@ -1,10 +1,10 @@
 package org.teta.broker.producer;
 
-import constants.KafkaTopicConstants;
-import enums.NotificationType;
-import event.TweetMentionNotificationEvent;
-import event.TweetNotificationEvent;
-import event.TweetSubscriberNotificationEvent;
+import org.teta.constants.KafkaTopicConstants;
+import org.teta.enums.NotificationType;
+import org.teta.event.TweetMentionNotificationEvent;
+import org.teta.event.TweetNotificationEvent;
+import org.teta.event.TweetSubscriberNotificationEvent;
 import org.teta.mapper.TweetNotificationMapper;
 import org.teta.model.Tweet;
 import org.teta.model.User;

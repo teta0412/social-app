@@ -1,7 +1,7 @@
 package org.teta.service.impl;
 
 import org.teta.broker.producer.TweetSubscriberNotificationProducer;
-import event.TweetSubscriberNotificationEvent;
+import org.teta.event.TweetSubscriberNotificationEvent;
 import org.teta.model.User;
 import org.teta.repository.UserRepository;
 import org.teta.service.UserNotificationHandlerService;

@@ -1,10 +1,10 @@
 package org.teta.service.impl;
 
-import dto.response.notification.NotificationUserResponse;
-import dto.response.user.UserResponse;
-import event.UpdateUserEvent;
-import mapper.BasicMapper;
-import util.AuthUtil;
+import org.teta.dto.response.notification.NotificationUserResponse;
+import org.teta.dto.response.user.UserResponse;
+import org.teta.event.UpdateUserEvent;
+import org.teta.mapper.BasicMapper;
+import org.teta.util.AuthUtil;
 import org.teta.model.User;
 import org.teta.repository.UserRepository;
 import org.teta.repository.projection.NotificationUserProjection;

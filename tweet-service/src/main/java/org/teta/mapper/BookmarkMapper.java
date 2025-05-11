@@ -1,8 +1,7 @@
 package org.teta.mapper;
 
-import dto.HeaderResponse;
-import dto.response.tweet.TweetResponse;
-import mapper.BasicMapper;
+import org.teta.dto.HeaderResponse;
+import org.teta.dto.response.tweet.TweetResponse;
 import org.teta.repository.projection.BookmarkProjection;
 import org.teta.repository.projection.TweetProjection;
 import org.teta.service.BookmarkService;

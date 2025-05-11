@@ -1,7 +1,6 @@
 package org.teta.mapper;
 
-import event.*;
-import mapper.BasicMapper;
+import org.teta.event.*;
 import org.teta.model.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

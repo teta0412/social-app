@@ -2,10 +2,11 @@ package org.teta.service.impl;
 
 import org.teta.broker.producer.UserNotificationProducer;
 import org.teta.client.WebSocketClient;
-import constants.WebsocketConstants;
-import dto.response.notification.NotificationResponse;
-import enums.NotificationType;
-import event.*;
+import org.teta.constants.WebsocketConstants;
+import org.teta.dto.response.notification.NotificationResponse;
+import org.teta.enums.NotificationType;
+
+import org.teta.event.*;
 import org.teta.mapper.NotificationHandlerMapper;
 import org.teta.model.Lists;
 import org.teta.model.Notification;

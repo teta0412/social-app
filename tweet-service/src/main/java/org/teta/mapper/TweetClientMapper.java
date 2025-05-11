@@ -1,11 +1,10 @@
 package org.teta.mapper;
 
-import dto.response.chat.ChatTweetResponse;
-import dto.HeaderResponse;
-import dto.request.IdsRequest;
-import dto.response.tweet.TweetResponse;
-import event.UpdateTweetEvent;
-import mapper.BasicMapper;
+import org.teta.dto.response.chat.ChatTweetResponse;
+import org.teta.dto.HeaderResponse;
+import org.teta.dto.request.IdsRequest;
+import org.teta.dto.response.tweet.TweetResponse;
+import org.teta.event.UpdateTweetEvent;
 import org.teta.model.Tweet;
 import org.teta.repository.projection.ChatTweetProjection;
 import org.teta.repository.projection.TweetProjection;

@@ -1,11 +1,11 @@
 package org.teta.controller.api;
 
-import constants.PathConstants;
-import dto.HeaderResponse;
-import dto.request.IdsRequest;
-import dto.response.chat.ChatTweetResponse;
-import dto.response.tweet.TweetResponse;
-import event.UpdateTweetEvent;
+import org.teta.constants.PathConstants;
+import org.teta.dto.HeaderResponse;
+import org.teta.dto.request.IdsRequest;
+import org.teta.dto.response.chat.ChatTweetResponse;
+import org.teta.dto.response.tweet.TweetResponse;
+import org.teta.event.UpdateTweetEvent;
 import org.teta.mapper.TweetClientMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.cloud.openfeign.SpringQueryMap;

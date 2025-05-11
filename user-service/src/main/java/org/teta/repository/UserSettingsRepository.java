@@ -1,7 +1,7 @@
 package org.teta.repository;
 
-import enums.BackgroundColorType;
-import enums.ColorSchemeType;
+import org.teta.enums.BackgroundColorType;
+import org.teta.enums.ColorSchemeType;
 import org.teta.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

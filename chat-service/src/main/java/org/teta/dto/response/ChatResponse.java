@@ -1,7 +1,7 @@
 package org.teta.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import dto.response.chat.ChatUserParticipantResponse;
+import org.teta.dto.response.chat.ChatUserParticipantResponse;
 import lombok.Data;
 
 import java.time.LocalDateTime;

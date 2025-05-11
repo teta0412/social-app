@@ -1,10 +1,10 @@
 package org.teta.service.impl;
 
 import org.teta.broker.producer.TagProducer;
-import dto.response.tweet.TweetResponse;
-import enums.ReplyType;
-import enums.TweetType;
-import exception.ApiRequestException;
+import org.teta.dto.response.tweet.TweetResponse;
+import org.teta.enums.ReplyType;
+import org.teta.enums.TweetType;
+import org.teta.exception.ApiRequestException;
 import org.teta.client.ImageClient;
 import org.teta.constants.TweetErrorMessage;
 import org.teta.constants.TweetSuccessMessage;
@@ -14,12 +14,11 @@ import org.teta.model.User;
 import org.teta.repository.TweetImageRepository;
 import org.teta.repository.TweetRepository;
 import org.teta.repository.projection.*;
-import org.teta.repository.projection.*;
 import org.teta.service.TweetService;
 import org.teta.service.UserService;
 import org.teta.service.util.TweetServiceHelper;
 import org.teta.service.util.TweetValidationHelper;
-import util.AuthUtil;
+import org.teta.util.AuthUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

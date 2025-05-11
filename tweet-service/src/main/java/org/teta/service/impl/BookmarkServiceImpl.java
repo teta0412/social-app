@@ -8,7 +8,7 @@ import org.teta.repository.projection.BookmarkProjection;
 import org.teta.service.BookmarkService;
 import org.teta.service.UserService;
 import org.teta.service.util.TweetValidationHelper;
-import util.AuthUtil;
+import org.teta.util.AuthUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

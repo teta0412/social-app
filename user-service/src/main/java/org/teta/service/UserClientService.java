@@ -1,8 +1,8 @@
 package org.teta.service;
 
-import dto.response.notification.NotificationUserResponse;
-import dto.response.user.UserResponse;
-import event.UpdateUserEvent;
+import org.teta.dto.response.notification.NotificationUserResponse;
+import org.teta.dto.response.user.UserResponse;
+import org.teta.event.UpdateUserEvent;
 
 import java.util.List;
 

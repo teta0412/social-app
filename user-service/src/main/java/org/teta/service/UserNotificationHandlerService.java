@@ -1,6 +1,6 @@
 package org.teta.service;
 
-import event.TweetSubscriberNotificationEvent;
+import org.teta.event.TweetSubscriberNotificationEvent;
 
 public interface UserNotificationHandlerService {
 

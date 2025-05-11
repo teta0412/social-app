@@ -1,7 +1,7 @@
 package org.teta.service;
 
-import event.TweetNotificationDto;
-import event.UpdateTweetEvent;
+import org.teta.event.TweetNotificationDto;
+import org.teta.event.UpdateTweetEvent;
 import org.teta.model.Tweet;
 
 public interface TweetHandlerService {

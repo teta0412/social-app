@@ -1,8 +1,8 @@
 package org.teta.broker.consumer;
 
-import constants.HeaderConstants;
-import constants.KafkaTopicConstants;
-import event.UpdateTweetCountEvent;
+import org.teta.constants.HeaderConstants;
+import org.teta.constants.KafkaTopicConstants;
+import org.teta.event.UpdateTweetCountEvent;
 import org.teta.service.UserUpdateTweetCountService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.annotation.KafkaListener;

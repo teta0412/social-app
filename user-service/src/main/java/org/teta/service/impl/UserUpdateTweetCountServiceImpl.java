@@ -1,7 +1,7 @@
 package org.teta.service.impl;
 
-import event.UpdateTweetCountEvent;
-import exception.ApiRequestException;
+import org.teta.event.UpdateTweetCountEvent;
+import org.teta.exception.ApiRequestException;
 import org.teta.constants.UserErrorMessage;
 import org.teta.model.User;
 import org.teta.repository.UserRepository;

@@ -1,10 +1,9 @@
 package org.teta.mapper;
 
-import dto.HeaderResponse;
-import dto.response.notification.NotificationResponse;
-import dto.response.notification.NotificationUserResponse;
-import dto.response.tweet.TweetResponse;
-import mapper.BasicMapper;
+import org.teta.dto.HeaderResponse;
+import org.teta.dto.response.notification.NotificationResponse;
+import org.teta.dto.response.notification.NotificationUserResponse;
+import org.teta.dto.response.tweet.TweetResponse;
 import org.teta.dto.NotificationInfoResponse;
 import org.teta.repository.projection.NotificationInfoProjection;
 import org.teta.repository.projection.NotificationProjection;

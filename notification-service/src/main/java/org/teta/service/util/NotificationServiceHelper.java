@@ -2,8 +2,8 @@ package org.teta.service.util;
 
 import org.teta.client.TweetClient;
 import org.teta.client.UserClient;
-import dto.response.tweet.TweetResponse;
-import dto.response.user.UserResponse;
+import org.teta.dto.response.tweet.TweetResponse;
+import org.teta.dto.response.user.UserResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

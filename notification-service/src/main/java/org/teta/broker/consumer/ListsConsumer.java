@@ -1,7 +1,7 @@
 package org.teta.broker.consumer;
 
-import constants.KafkaTopicConstants;
-import event.UpdateListsEvent;
+import org.teta.constants.KafkaTopicConstants;
+import org.teta.event.UpdateListsEvent;
 import org.teta.service.ListsHandlerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.annotation.KafkaListener;

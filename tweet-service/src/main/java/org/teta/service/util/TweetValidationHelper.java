@@ -1,13 +1,13 @@
 package org.teta.service.util;
 
-import constants.ErrorMessage;
-import exception.ApiRequestException;
+import org.teta.constants.ErrorMessage;
+import org.teta.exception.ApiRequestException;
 import org.teta.constants.TweetErrorMessage;
 import org.teta.model.Tweet;
 import org.teta.model.User;
 import org.teta.repository.TweetRepository;
 import org.teta.service.UserService;
-import util.AuthUtil;
+import org.teta.util.AuthUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;

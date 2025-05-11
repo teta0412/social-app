@@ -1,13 +1,13 @@
 package org.teta.consumer;
 
 
-import event.SendEmailEvent;
+import org.teta.event.SendEmailEvent;
 import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 import org.teta.service.EmailService;
 
-import static constants.KafkaTopicConstants.SEND_EMAIL_TOPIC;
+import static org.teta.constants.KafkaTopicConstants.SEND_EMAIL_TOPIC;
 
 
 @Component

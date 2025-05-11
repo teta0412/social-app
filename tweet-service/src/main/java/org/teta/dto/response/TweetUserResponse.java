@@ -1,6 +1,6 @@
 package org.teta.dto.response;
 
-import dto.response.tweet.TweetResponse;
+import org.teta.dto.response.tweet.TweetResponse;
 import lombok.Getter;
 import lombok.Setter;
 

@@ -25,19 +25,6 @@ spring:
                     enabled: true
                     lower-case-service-id: true
             routes:
-                -   id: topic-service
-                    uri: lb://topic-service
-                    predicates:
-                        - Path=/ui/v1/topics/**
-                    filters:
-                        - AuthFilter
-
-                -   id: tag-service
-                    uri: lb://tag-service
-                    predicates:
-                        - Path=/ui/v1/tags/**, /api/v1/tags/**
-                    filters:
-                        - AuthFilter
 
                 -   id: tweet-service
                     uri: lb://tweet-service
@@ -58,13 +45,6 @@ spring:
                     predicates:
                         - Path=/ui/v1/auth/**
 
-                -   id: lists-service
-                    uri: lb://lists-service
-                    predicates:
-                        - Path=/ui/v1/lists/**, /api/v1/lists/**
-                    filters:
-                        - AuthFilter
-
                 -   id: chat-service
                     uri: lb://chat-service
                     predicates:
@@ -84,8 +64,8 @@ spring:
                     predicates:
                         - Path=/websocket/**, /api/v1/websocket/**
 
-                -   id: image-service
-                    uri: lb://image-service
+                -   id: storage-service
+                    uri: lb://storage-service
                     predicates:
                         - Path=/api/v1/image/upload
                     filters:
@@ -96,17 +76,6 @@ spring:
                     predicates:
                         - Path=/api/v1/email/suggested
 
-                -   id: localization-service
-                    uri: lb://localization-service
-                    predicates:
-                        - Path=/ui/v1/localization/**
-
-                -   id: scheduler-service
-                    uri: lb://scheduler-service
-                    predicates:
-                        - Path=/api/v1/scheduler/**
-                    filters:
-                        - AuthFilter
     zipkin:
         base-url: http://${ZIPKIN_HOST:localhost}:9411
 

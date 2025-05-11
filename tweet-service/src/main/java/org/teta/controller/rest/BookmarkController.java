@@ -1,8 +1,8 @@
 package org.teta.controller.rest;
 
-import constants.PathConstants;
-import dto.HeaderResponse;
-import dto.response.tweet.TweetResponse;
+import org.teta.constants.PathConstants;
+import org.teta.dto.HeaderResponse;
+import org.teta.dto.response.tweet.TweetResponse;
 import org.teta.mapper.BookmarkMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;

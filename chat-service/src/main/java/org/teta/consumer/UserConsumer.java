@@ -1,11 +1,11 @@
 package org.teta.consumer;
 
-import constants.HeaderConstants;
-import constants.KafkaTopicConstants;
-import event.BlockUserEvent;
-import event.FollowRequestUserEvent;
-import event.FollowUserEvent;
-import event.UpdateUserEvent;
+import org.teta.constants.HeaderConstants;
+import org.teta.constants.KafkaTopicConstants;
+import org.teta.event.BlockUserEvent;
+import org.teta.event.FollowRequestUserEvent;
+import org.teta.event.FollowUserEvent;
+import org.teta.event.UpdateUserEvent;
 import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.messaging.handler.annotation.Header;

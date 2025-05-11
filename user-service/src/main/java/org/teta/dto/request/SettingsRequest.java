@@ -1,7 +1,7 @@
 package org.teta.dto.request;
 
-import enums.BackgroundColorType;
-import enums.ColorSchemeType;
+import org.teta.enums.BackgroundColorType;
+import org.teta.enums.ColorSchemeType;
 import lombok.Data;
 
 @Data

@@ -1,8 +1,8 @@
 package org.teta.service.impl;
 
-import constants.ErrorMessage;
-import exception.ApiRequestException;
-import util.AuthUtil;
+import org.teta.constants.ErrorMessage;
+import org.teta.exception.ApiRequestException;
+import org.teta.util.AuthUtil;
 import org.teta.constants.ChatErrorMessage;
 import org.teta.model.User;
 import org.teta.repository.UserRepository;

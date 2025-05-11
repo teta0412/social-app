@@ -1,9 +1,9 @@
 package org.teta.repository.projection;
 
-import dto.response.tweet.TweetListResponse;
-import enums.LinkCoverSize;
-import enums.ReplyType;
-import enums.TweetType;
+import org.teta.dto.response.tweet.TweetListResponse;
+import org.teta.enums.LinkCoverSize;
+import org.teta.enums.ReplyType;
+import org.teta.enums.TweetType;
 import org.springframework.beans.factory.annotation.Value;
 
 import java.time.LocalDateTime;

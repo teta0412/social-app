@@ -1,6 +1,6 @@
 package org.teta.batch;
 
-import event.UpdateUserEvent;
+import org.teta.event.UpdateUserEvent;
 import org.springframework.batch.item.data.AbstractPaginatedDataItemReader;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

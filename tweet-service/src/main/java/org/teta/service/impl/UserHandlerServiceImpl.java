@@ -1,6 +1,7 @@
 package org.teta.service.impl;
 
-import event.*;
+
+import org.teta.event.*;
 import org.teta.model.Tweet;
 import org.teta.model.User;
 import org.teta.repository.TweetRepository;

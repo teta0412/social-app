@@ -1,6 +1,6 @@
 package org.teta.controller.rest;
 
-import constants.PathConstants;
+import org.teta.constants.PathConstants;
 import org.teta.dto.request.*;
 import org.teta.dto.response.AuthUserResponse;
 import org.teta.dto.response.AuthenticationResponse;

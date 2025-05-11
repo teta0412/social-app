@@ -1,7 +1,7 @@
 package org.teta.model;
 
 
-import enums.TweetType;
+import org.teta.enums.TweetType;
 import jakarta.persistence.*;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

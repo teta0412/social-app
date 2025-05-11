@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import static constants.PathConstants.API_V1_IMAGE;
-import static constants.PathConstants.UPLOAD;
+import static org.teta.constants.PathConstants.API_V1_IMAGE;
+import static org.teta.constants.PathConstants.UPLOAD;
 
 @RestController
 @RequiredArgsConstructor

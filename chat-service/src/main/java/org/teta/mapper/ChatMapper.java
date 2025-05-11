@@ -1,7 +1,6 @@
 package org.teta.mapper;
 
 import lombok.RequiredArgsConstructor;
-import mapper.BasicMapper;
 import org.springframework.stereotype.Component;
 import org.teta.dto.response.ChatResponse;
 import org.teta.repository.projection.ChatProjection;

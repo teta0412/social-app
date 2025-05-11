@@ -1,7 +1,6 @@
 package org.teta.mapper;
 
-import dto.HeaderResponse;
-import mapper.BasicMapper;
+import org.teta.dto.HeaderResponse;
 import org.teta.dto.response.BlockedUserResponse;
 import org.teta.repository.projection.BlockedUserProjection;
 import org.teta.service.BlockUserService;

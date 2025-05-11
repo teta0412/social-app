@@ -1,8 +1,8 @@
 package org.teta.controller.rest;
 
-import constants.PathConstants;
-import dto.HeaderResponse;
-import dto.response.user.UserResponse;
+import org.teta.constants.PathConstants;
+import org.teta.dto.HeaderResponse;
+import org.teta.dto.response.user.UserResponse;
 import org.teta.dto.response.FollowerUserResponse;
 import org.teta.dto.response.UserProfileResponse;
 import org.teta.mapper.FollowerUserMapper;

@@ -1,7 +1,7 @@
 package org.teta.service.impl;
 
-import event.UpdateUserEvent;
-import event.UserNotificationDto;
+import org.teta.event.UpdateUserEvent;
+import org.teta.event.UserNotificationDto;
 import org.teta.model.User;
 import org.teta.repository.UserRepository;
 import org.teta.service.UserHandlerService;

@@ -1,6 +1,6 @@
 package org.teta.dto.response;
 
-import dto.response.user.CommonUserResponse;
+import org.teta.dto.response.user.CommonUserResponse;
 import lombok.Data;
 
 import java.util.List;

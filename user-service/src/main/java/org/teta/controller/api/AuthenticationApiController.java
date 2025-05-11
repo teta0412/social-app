@@ -1,8 +1,8 @@
 package org.teta.controller.api;
 
-import constants.PathConstants;
-import dto.response.user.UserPrincipalResponse;
-import mapper.BasicMapper;
+import org.teta.constants.PathConstants;
+import org.teta.dto.response.user.UserPrincipalResponse;
+import org.teta.mapper.BasicMapper;
 import org.teta.service.AuthenticationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,6 +1,6 @@
 package org.teta.service;
 
-import event.UpdateTweetCountEvent;
+import org.teta.event.UpdateTweetCountEvent;
 
 public interface UserUpdateTweetCountService {
 

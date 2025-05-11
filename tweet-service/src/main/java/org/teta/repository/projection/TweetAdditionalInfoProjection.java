@@ -1,6 +1,6 @@
 package org.teta.repository.projection;
 
-import enums.ReplyType;
+import org.teta.enums.ReplyType;
 import org.springframework.beans.factory.annotation.Value;
 
 public interface TweetAdditionalInfoProjection {

@@ -1,9 +1,9 @@
 package org.teta.controller.api;
 
-import constants.PathConstants;
-import dto.response.notification.NotificationUserResponse;
-import dto.response.user.UserResponse;
-import event.UpdateUserEvent;
+import org.teta.constants.PathConstants;
+import org.teta.dto.response.notification.NotificationUserResponse;
+import org.teta.dto.response.user.UserResponse;
+import org.teta.event.UpdateUserEvent;
 import org.teta.service.UserClientService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

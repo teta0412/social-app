@@ -1,6 +1,6 @@
 package org.teta.service;
 
-import event.SendEmailEvent;
+import org.teta.event.SendEmailEvent;
 import jakarta.mail.internet.MimeMessage;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;

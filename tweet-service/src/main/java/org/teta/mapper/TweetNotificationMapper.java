@@ -1,9 +1,9 @@
 package org.teta.mapper;
 
-import dto.response.tweet.TweetResponse;
-import enums.NotificationType;
-import event.*;
-import mapper.BasicMapper;
+import org.teta.dto.response.tweet.TweetResponse;
+import org.teta.enums.NotificationType;
+
+import org.teta.event.*;
 import org.teta.model.Tweet;
 import org.teta.model.User;
 import lombok.RequiredArgsConstructor;

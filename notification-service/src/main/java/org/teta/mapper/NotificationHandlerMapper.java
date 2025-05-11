@@ -1,8 +1,7 @@
 package org.teta.mapper;
 
-import dto.response.notification.NotificationResponse;
-import event.TweetNotificationEvent;
-import mapper.BasicMapper;
+import org.teta.dto.response.notification.NotificationResponse;
+import org.teta.event.TweetNotificationEvent;
 import org.teta.model.Notification;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

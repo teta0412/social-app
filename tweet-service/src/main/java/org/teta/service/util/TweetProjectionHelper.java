@@ -1,11 +1,11 @@
 package org.teta.service.util;
 
-import dto.response.tweet.TweetListResponse;
+import org.teta.dto.response.tweet.TweetListResponse;
 import org.teta.client.ListsClient;
 import org.teta.repository.BookmarkRepository;
 import org.teta.repository.LikeTweetRepository;
 import org.teta.repository.RetweetRepository;
-import util.AuthUtil;
+import org.teta.util.AuthUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

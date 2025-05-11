@@ -1,7 +1,7 @@
 package org.teta.batch;
 
-import constants.BatchJobConstants;
-import event.UpdateUserEvent;
+import org.teta.constants.BatchJobConstants;
+import org.teta.event.UpdateUserEvent;
 import jakarta.persistence.EntityManagerFactory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.Job;

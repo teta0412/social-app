@@ -1,8 +1,8 @@
 package org.teta.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import enums.BackgroundColorType;
-import enums.ColorSchemeType;
+import org.teta.enums.BackgroundColorType;
+import org.teta.enums.ColorSchemeType;
 import lombok.Data;
 
 import java.time.LocalDateTime;

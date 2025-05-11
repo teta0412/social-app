@@ -2,9 +2,9 @@ package org.teta.service.impl;
 
 import org.teta.broker.producer.SendEmailProducer;
 import org.teta.broker.producer.UpdateUserProducer;
-import event.SendEmailEvent;
-import exception.ApiRequestException;
-import security.JwtProvider;
+import org.teta.event.SendEmailEvent;
+import org.teta.exception.ApiRequestException;
+import org.teta.security.JwtProvider;
 import org.teta.constants.UserErrorMessage;
 import org.teta.constants.UserSuccessMessage;
 import org.teta.dto.request.RegistrationRequest;

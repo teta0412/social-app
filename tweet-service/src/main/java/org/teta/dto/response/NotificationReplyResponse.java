@@ -1,7 +1,7 @@
 package org.teta.dto.response;
 
-import dto.response.tweet.TweetResponse;
-import enums.NotificationType;
+import org.teta.dto.response.tweet.TweetResponse;
+import org.teta.enums.NotificationType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

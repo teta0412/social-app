@@ -1,9 +1,8 @@
 package org.teta.mapper;
 
-import dto.HeaderResponse;
-import dto.response.user.UserResponse;
+import org.teta.dto.HeaderResponse;
+import org.teta.dto.response.user.UserResponse;
 import lombok.RequiredArgsConstructor;
-import mapper.BasicMapper;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;

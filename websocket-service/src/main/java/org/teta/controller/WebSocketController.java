@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.web.bind.annotation.*;
 
-import static constants.PathConstants.API_V1_WEBSOCKET;
+import static org.teta.constants.PathConstants.API_V1_WEBSOCKET;
 
 @RestController
 @RequiredArgsConstructor

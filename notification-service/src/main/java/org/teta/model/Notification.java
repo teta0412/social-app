@@ -1,6 +1,6 @@
 package org.teta.model;
 
-import enums.NotificationType;
+import org.teta.enums.NotificationType;
 import jakarta.persistence.*;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

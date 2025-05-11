@@ -1,6 +1,6 @@
 package org.teta.dto.response;
 
-import dto.response.chat.ChatTweetResponse;
+import org.teta.dto.response.chat.ChatTweetResponse;
 import lombok.Data;
 
 import java.time.LocalDateTime;

@@ -1,13 +1,12 @@
 package org.teta.controller.rest;
 
-import constants.PathConstants;
-import constants.WebsocketConstants;
-import dto.HeaderResponse;
-import dto.response.tweet.TweetResponse;
+import org.teta.constants.PathConstants;
+import org.teta.constants.WebsocketConstants;
+import org.teta.dto.HeaderResponse;
+import org.teta.dto.response.tweet.TweetResponse;
 import org.teta.dto.request.TweetRequest;
-import org.teta.dto.response.*;
-import dto.response.user.UserResponse;
-import enums.ReplyType;
+import org.teta.dto.response.user.UserResponse;
+import org.teta.enums.ReplyType;
 import org.teta.client.WebSocketClient;
 import org.teta.dto.response.NotificationReplyResponse;
 import org.teta.dto.response.ProfileTweetImageResponse;

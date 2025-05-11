@@ -1,11 +1,11 @@
 package org.teta.service.impl;
 
 import org.teta.broker.producer.SendEmailProducer;
-import constants.HeaderConstants;
-import event.SendEmailEvent;
-import exception.ApiRequestException;
-import exception.InputFieldException;
-import security.JwtProvider;
+import org.teta.constants.HeaderConstants;
+import org.teta.event.SendEmailEvent;
+import org.teta.exception.ApiRequestException;
+import org.teta.exception.InputFieldException;
+import org.teta.security.JwtProvider;
 import org.teta.constants.UserErrorMessage;
 import org.teta.constants.UserSuccessMessage;
 import org.teta.dto.request.AuthenticationRequest;

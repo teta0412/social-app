@@ -1,8 +1,8 @@
 package org.teta.controller;
 
 import org.teta.client.WebSocketClient;
-import constants.PathConstants;
-import constants.WebsocketConstants;
+import org.teta.constants.PathConstants;
+import org.teta.constants.WebsocketConstants;
 import org.teta.dto.request.ChatMessageRequest;
 import org.teta.dto.request.MessageWithTweetRequest;
 import org.teta.dto.response.ChatMessageResponse;

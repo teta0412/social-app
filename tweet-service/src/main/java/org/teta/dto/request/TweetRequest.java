@@ -1,8 +1,8 @@
 package org.teta.dto.request;
 
 import org.teta.dto.response.TweetImageResponse;
-import enums.LinkCoverSize;
-import enums.ReplyType;
+import org.teta.enums.LinkCoverSize;
+import org.teta.enums.ReplyType;
 import lombok.Data;
 
 import java.time.LocalDateTime;

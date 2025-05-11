@@ -1,7 +1,7 @@
 package org.teta.configuration;
 
-import event.TweetSubscriberNotificationEvent;
-import event.UpdateTweetCountEvent;
+import org.teta.event.TweetSubscriberNotificationEvent;
+import org.teta.event.UpdateTweetCountEvent;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.beans.factory.annotation.Value;

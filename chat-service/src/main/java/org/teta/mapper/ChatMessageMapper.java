@@ -1,7 +1,6 @@
 package org.teta.mapper;
 
 import lombok.RequiredArgsConstructor;
-import mapper.BasicMapper;
 import org.springframework.stereotype.Component;
 import org.teta.dto.request.ChatMessageRequest;
 import org.teta.dto.request.MessageWithTweetRequest;

@@ -1,10 +1,10 @@
 package org.teta.rest;
 
-import constants.PathConstants;
-import dto.HeaderResponse;
-import dto.response.notification.NotificationResponse;
-import dto.response.notification.NotificationUserResponse;
-import dto.response.tweet.TweetResponse;
+import org.teta.constants.PathConstants;
+import org.teta.dto.HeaderResponse;
+import org.teta.dto.response.notification.NotificationResponse;
+import org.teta.dto.response.notification.NotificationUserResponse;
+import org.teta.dto.response.tweet.TweetResponse;
 import org.teta.dto.NotificationInfoResponse;
 import org.teta.mapper.NotificationMapper;
 import lombok.RequiredArgsConstructor;

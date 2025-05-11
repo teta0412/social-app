@@ -1,7 +1,7 @@
 package org.teta.service.util;
 
-import exception.ApiRequestException;
-import exception.InputFieldException;
+import org.teta.exception.ApiRequestException;
+import org.teta.exception.InputFieldException;
 import org.teta.constants.UserErrorMessage;
 import org.teta.model.User;
 import org.teta.repository.BlockUserRepository;

@@ -1,6 +1,6 @@
 package org.teta.repository.projection;
 
-import enums.NotificationType;
+import org.teta.enums.NotificationType;
 
 import java.time.LocalDateTime;
 

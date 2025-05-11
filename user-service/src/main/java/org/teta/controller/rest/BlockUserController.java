@@ -1,7 +1,7 @@
 package org.teta.controller.rest;
 
-import constants.PathConstants;
-import dto.HeaderResponse;
+import org.teta.constants.PathConstants;
+import org.teta.dto.HeaderResponse;
 import org.teta.dto.response.BlockedUserResponse;
 import org.teta.mapper.BlockUserMapper;
 import lombok.RequiredArgsConstructor;

@@ -1,10 +1,10 @@
 package org.teta.controller.rest;
 
-import constants.PathConstants;
-import dto.HeaderResponse;
-import dto.response.tweet.TweetResponse;
-import dto.response.notification.NotificationTweetResponse;
-import dto.response.user.UserResponse;
+import org.teta.constants.PathConstants;
+import org.teta.dto.HeaderResponse;
+import org.teta.dto.response.tweet.TweetResponse;
+import org.teta.dto.response.notification.NotificationTweetResponse;
+import org.teta.dto.response.user.UserResponse;
 import org.teta.mapper.RetweetMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;

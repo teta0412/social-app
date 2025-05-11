@@ -1,8 +1,8 @@
 package org.teta.service.impl;
 
 import org.teta.broker.producer.TweetNotificationProducer;
-import enums.NotificationType;
-import enums.TweetType;
+import org.teta.enums.NotificationType;
+import org.teta.enums.TweetType;
 import org.teta.model.Tweet;
 import org.teta.model.User;
 import org.teta.broker.producer.UpdateTweetCountProducer;

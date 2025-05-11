@@ -1,8 +1,8 @@
 package org.teta.controller;
 
-import constants.PathConstants;
-import dto.HeaderResponse;
-import dto.response.user.UserResponse;
+import org.teta.constants.PathConstants;
+import org.teta.dto.HeaderResponse;
+import org.teta.dto.response.user.UserResponse;
 import org.teta.dto.response.UserChatResponse;
 import org.teta.mapper.ChatParticipantMapper;
 import lombok.RequiredArgsConstructor;

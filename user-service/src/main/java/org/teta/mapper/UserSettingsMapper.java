@@ -1,7 +1,7 @@
 package org.teta.mapper;
 
-import enums.BackgroundColorType;
-import enums.ColorSchemeType;
+import org.teta.enums.BackgroundColorType;
+import org.teta.enums.ColorSchemeType;
 import org.teta.dto.request.SettingsRequest;
 import org.teta.dto.response.AuthenticationResponse;
 import org.teta.dto.response.UserPhoneResponse;

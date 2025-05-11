@@ -1,13 +1,13 @@
 package org.teta.service.impl;
 
-import constants.ErrorMessage;
-import exception.ApiRequestException;
+import org.teta.constants.ErrorMessage;
+import org.teta.exception.ApiRequestException;
 import org.teta.model.Tweet;
 import org.teta.model.User;
 import org.teta.repository.UserRepository;
 import org.teta.repository.projection.UserProjection;
 import org.teta.service.UserService;
-import util.AuthUtil;
+import org.teta.util.AuthUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

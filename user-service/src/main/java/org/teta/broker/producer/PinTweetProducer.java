@@ -1,8 +1,8 @@
 package org.teta.broker.producer;
 
 import org.teta.broker.util.ProducerUtil;
-import constants.KafkaTopicConstants;
-import event.PinTweetEvent;
+import org.teta.constants.KafkaTopicConstants;
+import org.teta.event.PinTweetEvent;
 import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;

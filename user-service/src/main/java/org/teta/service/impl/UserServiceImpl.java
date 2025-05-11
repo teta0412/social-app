@@ -4,7 +4,7 @@ import org.teta.broker.producer.PinTweetProducer;
 import org.teta.broker.producer.UpdateUserProducer;
 import org.teta.client.TagClient;
 import org.teta.client.TweetClient;
-import exception.ApiRequestException;
+import org.teta.exception.ApiRequestException;
 import org.teta.constants.UserErrorMessage;
 import org.teta.dto.request.SearchTermsRequest;
 import org.teta.model.User;

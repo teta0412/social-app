@@ -1,7 +1,7 @@
 package org.teta.controller;
 
-import constants.BatchJobConstants;
-import constants.PathConstants;
+import org.teta.constants.BatchJobConstants;
+import org.teta.constants.PathConstants;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import org.springframework.batch.core.Job;

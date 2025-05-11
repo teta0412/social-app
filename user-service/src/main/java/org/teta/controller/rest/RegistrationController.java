@@ -1,6 +1,6 @@
 package org.teta.controller.rest;
 
-import constants.PathConstants;
+import org.teta.constants.PathConstants;
 import org.teta.dto.request.EndRegistrationRequest;
 import org.teta.dto.request.ProcessEmailRequest;
 import org.teta.dto.request.RegistrationRequest;

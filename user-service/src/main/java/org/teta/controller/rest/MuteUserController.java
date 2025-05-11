@@ -1,7 +1,7 @@
 package org.teta.controller.rest;
 
-import constants.PathConstants;
-import dto.HeaderResponse;
+import org.teta.constants.PathConstants;
+import org.teta.dto.HeaderResponse;
 import org.teta.dto.response.MutedUserResponse;
 import org.teta.mapper.MuteUserMapper;
 import lombok.RequiredArgsConstructor;

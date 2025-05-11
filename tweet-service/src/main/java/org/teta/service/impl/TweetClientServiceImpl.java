@@ -1,6 +1,6 @@
 package org.teta.service.impl;
 
-import dto.request.IdsRequest;
+import org.teta.dto.request.IdsRequest;
 import org.teta.model.Tweet;
 import org.teta.repository.TweetRepository;
 import org.teta.repository.projection.ChatTweetProjection;

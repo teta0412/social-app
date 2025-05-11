@@ -1,8 +1,7 @@
 package org.teta.mapper;
 
-import dto.HeaderResponse;
-import dto.response.user.UserResponse;
-import mapper.BasicMapper;
+import org.teta.dto.HeaderResponse;
+import org.teta.dto.response.user.UserResponse;
 import org.teta.dto.response.FollowerUserResponse;
 import org.teta.dto.response.UserProfileResponse;
 import org.teta.repository.projection.BaseUserProjection;

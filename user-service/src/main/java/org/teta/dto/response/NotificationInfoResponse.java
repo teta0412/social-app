@@ -1,8 +1,8 @@
 package org.teta.dto.response;
 
-import dto.response.tweet.TweetResponse;
-import dto.response.user.UserResponse;
-import enums.NotificationType;
+import org.teta.dto.response.tweet.TweetResponse;
+import org.teta.dto.response.user.UserResponse;
+import org.teta.enums.NotificationType;
 import lombok.Data;
 
 import java.time.LocalDateTime;

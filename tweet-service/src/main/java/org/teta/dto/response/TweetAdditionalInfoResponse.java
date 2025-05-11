@@ -1,8 +1,8 @@
 package org.teta.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import dto.response.tweet.TweetAdditionalInfoUserResponse;
-import enums.ReplyType;
+import org.teta.dto.response.tweet.TweetAdditionalInfoUserResponse;
+import org.teta.enums.ReplyType;
 import lombok.Data;
 
 @Data

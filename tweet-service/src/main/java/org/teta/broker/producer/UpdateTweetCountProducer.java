@@ -1,8 +1,8 @@
 package org.teta.broker.producer;
 
-import constants.HeaderConstants;
-import constants.KafkaTopicConstants;
-import event.UpdateTweetCountEvent;
+import org.teta.constants.HeaderConstants;
+import org.teta.constants.KafkaTopicConstants;
+import org.teta.event.UpdateTweetCountEvent;
 import lombok.RequiredArgsConstructor;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.springframework.kafka.core.KafkaTemplate;

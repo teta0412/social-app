@@ -2,10 +2,10 @@ package org.teta.service.impl;
 
 import org.teta.broker.producer.UpdateUserProducer;
 import org.teta.client.LocalizationClient;
-import enums.BackgroundColorType;
-import enums.ColorSchemeType;
-import exception.ApiRequestException;
-import security.JwtProvider;
+import org.teta.enums.BackgroundColorType;
+import org.teta.enums.ColorSchemeType;
+import org.teta.exception.ApiRequestException;
+import org.teta.security.JwtProvider;
 import org.teta.constants.UserErrorMessage;
 import org.teta.constants.UserSuccessMessage;
 import org.teta.model.User;
