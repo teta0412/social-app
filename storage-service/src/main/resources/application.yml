@@ -10,7 +10,7 @@ spring:
 amazon:
     s3:
         bucket:
-            name: teta-distributed-project
+            name: your-bucket-name
     aws:
         access-key: your-access-key
         secret-key: your-secret-key
