@@ -1,19 +1,29 @@
 server:
-    port: 8021
+    port: 8020
 
 spring:
     application:
-        name: image-service
+        name: email-service
     zipkin:
         base-url: http://${ZIPKIN_HOST:localhost}:9411
-
-amazon:
-    s3:
-        bucket:
-            name: teta-distributed-project
-    aws:
-        access-key: your-access-key
-        secret-key: your-secret-key
+    mail:
+        host: smtp.gmail.com
+        username: bive199@gmail.com
+        password: qhws ytzy fyhj plaj
+        port: 465
+        protocol: smtps
+        properties:
+            mail:
+                smtp:
+                    auth: true
+                    starttls:
+                        enable: true
+    kafka:
+        bootstrap-servers: localhost:9092
+        consumer:
+            group-id: email
+mail:
+    debug: false
 
 eureka:
     client:
