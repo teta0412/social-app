@@ -13,13 +13,13 @@ spring:
                         exposedHeaders: "page-total-count"
                         allowedHeaders: "*"
                         allowedMethods:
-                            - GET
-                            - POST
-                            - PUT
-                            - DELETE
-                            - PATCH
-                            - OPTIONS
-                            - HEAD
+                        - GET
+                        - POST
+                        - PUT
+                        - DELETE
+                        - PATCH
+                        - OPTIONS
+                        - HEAD
             discovery:
                 locator:
                     enabled: true

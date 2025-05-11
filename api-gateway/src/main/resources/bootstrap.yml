@@ -1,6 +1,8 @@
 spring:
+    main:
+        web-application-type: reactive
     application:
-        name: websocket-service
+        name: api-gateway
     cloud:
         config:
             uri: http://${CONFIG_SERVER_HOST:localhost}:8888/
