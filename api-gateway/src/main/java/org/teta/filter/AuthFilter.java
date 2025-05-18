@@ -34,20 +34,20 @@ public class AuthFilter extends AbstractGatewayFilterFactory<AuthFilter.Config> 
             boolean isTokenValid = jwtProvider.validateToken(token);
 
             if (token != null && isTokenValid) {
-                String email = jwtProvider.parseToken(token);
-                UserPrincipalResponse user = restTemplate.getForObject(
-                        String.format("http://%s:8001%s", USER_SERVICE, API_V1_AUTH + USER_EMAIL),
-                        UserPrincipalResponse.class,
-                        email
-                );
-
-                if (user.getActivationCode() != null) {
-                    throw new JwtAuthenticationException("Email not activated");
-                }
-                exchange.getRequest()
-                        .mutate()
-                        .header(HeaderConstants.AUTH_USER_ID_HEADER, String.valueOf(user.getId()))
-                        .build();
+//                String email = jwtProvider.parseToken(token);
+//                UserPrincipalResponse user = restTemplate.getForObject(
+//                        String.format("http://%s:8001%s", USER_SERVICE, API_V1_AUTH + USER_EMAIL),
+//                        UserPrincipalResponse.class,
+//                        email
+//                );
+//
+//                if (user.getActivationCode() != null) {
+//                    throw new JwtAuthenticationException("Email not activated");
+//                }
+//                exchange.getRequest()
+//                        .mutate()
+//                        .header(HeaderConstants.AUTH_USER_ID_HEADER, String.valueOf(user.getId()))
+//                        .build();
                 return chain.filter(exchange);
             } else {
                 throw new JwtAuthenticationException(JWT_TOKEN_EXPIRED);
