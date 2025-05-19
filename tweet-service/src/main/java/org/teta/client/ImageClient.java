@@ -1,5 +1,6 @@
 package org.teta.client;
 
+import org.springframework.http.MediaType;
 import org.teta.configuration.FeignConfiguration;
 import org.teta.constants.FeignConstants;
 import org.teta.constants.PathConstants;
@@ -13,6 +14,6 @@ import org.springframework.web.multipart.MultipartFile;
 @FeignClient(name = FeignConstants.IMAGE_SERVICE, path = PathConstants.API_V1_IMAGE, configuration = FeignConfiguration.class)
 public interface ImageClient {
 
-    @PostMapping(PathConstants.UPLOAD)
+    @PostMapping(value = PathConstants.UPLOAD , consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     String uploadImage(@RequestPart("file") MultipartFile file);
 }

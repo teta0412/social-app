@@ -20,6 +20,18 @@ spring:
                         - PATCH
                         - OPTIONS
                         - HEAD
+                    '[/api/v1/**]':
+                        allowedOrigins: "*"
+                        exposedHeaders: "page-total-count"
+                        allowedHeaders: "*"
+                        allowedMethods:
+                            - GET
+                            - POST
+                            - PUT
+                            - DELETE
+                            - PATCH
+                            - OPTIONS
+                            - HEAD
             discovery:
                 locator:
                     enabled: true
